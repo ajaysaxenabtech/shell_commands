@@ -4,11 +4,22 @@
 
 ```bash
 rm -rf myfolder
-
-
+```
 -f — force deletion (no error if the directory doesn't exist, no prompt)
 
+```bash
+rm -r <directory_name>
+
 ```
+rm — remove
+-r — recursively delete the contents (required for directories)
+
+```bash
+rm -ri myfolder
+```
+-ri delete interactively with confirmation for each file/directory.
+
+```bash
 
 
 
